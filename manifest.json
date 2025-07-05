@@ -1,0 +1,19 @@
+{
+  "name": "Smart HTML Email Generator",
+  "slug": "smart-html-email-generator",
+  "version": "1.0.0",
+  "app_framework_version": "1.3",
+  "permissions": ["boards:read", "items:read"],
+  "integration": {
+    "settings": {},
+    "recipes": []
+  },
+  "views": [
+    {
+      "type": "board_view",
+      "name": "Email Template Preview",
+      "url": "https://your-app-host/email-template-view",
+      "settings": {}
+    }
+  ]
+}
